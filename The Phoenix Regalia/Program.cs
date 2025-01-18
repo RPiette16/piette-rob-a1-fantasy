@@ -58,7 +58,7 @@ else if (decision == "Dissembark")
         }
         Console.Write("You set out towards the east end of town and see over the trees that the main road ahead goes around the woods rather than through.");
         Console.Write(" If you cut through the woods you will get to the mountain faster but there is no telling what dangers may lie in wait on either path.");
-        Console.WriteLine("\nWhat will you do? Take the Road or cut through the Woods?");
+        Console.WriteLine("\nWhat will you do? Do you wish to take the Road or cut through the Woods?");
 
         string path = Console.ReadLine();
         if (path == "Road")
@@ -73,7 +73,7 @@ else if (decision == "Dissembark")
             Console.Write("\n\nYou march straight through the woods and arrive at the foot of the mountain safe.");
             Console.Write(" You see a cave entrance that leads into the mountain and you step inside. You can hear distant drip noises as you walk deeper into the cave");
             Console.Write(" As you move deeper into the mountain it begins getting hotter and hotter.You come to a fork in the tunnels ahead.");
-            Console.WriteLine("Do you take the Left or Right Tunnel?");
+            Console.WriteLine("Do you take the Left or Right tunnel?");
 
             string tunnel = Console.ReadLine();
             if (tunnel == "Left")
