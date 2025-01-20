@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Set the stage for the adventure and get the player name.
-using System.ComponentModel.Design;
-
 Console.WriteLine("Hello Adventurer, what shall we call you?");
 string Name = Console.ReadLine();
 // Broke up the text into multiple Write lines for ease of reading the code rather than one ridiculous long line.
@@ -113,7 +111,7 @@ else if (decision == "Dissembark")
                     Console.Write(" Justified in your decision you swing your blade one more time avenging the poor Phoenix and her children. The Phoenix seeing what you have done ashes and from the ashes rises again a normal phoenix.");
                     Console.Write(" The newly born Phoenix bends down to you and gifts you a single crystalized tear known for its healing powers and rumored to even bring someone back from the dead.");
 
-                    Console.Write("\n\nYou returned to Locksar town and are greated by the whole town, because you saved them from the Phoenix and Mr Snyde they offer you his wealth and his home!");
+                    Console.Write("\n\nYou returned to Locksar town and are greeted by the whole town, because you saved them from the Phoenix and Mr Snyde they offer you his wealth and his home!");
                     Console.WriteLine($" Congratulations {Name}, you have won!");
                 }
                 else if (outcome == "Three")
